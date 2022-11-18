@@ -5,8 +5,15 @@ import java.util.Scanner;
 public class Ejercicio01 {
 
 	public static void main(String[] args) {
-				
-		//PRIMER BLOQUE: DECLARACIÓN DE VARIABLES
+		
+		/*PRUEBAS
+		 
+		 1) INPUT:
+		 2) INPUT:
+		 
+		 */
+		
+		//DECLARACIÓN DE VARIABLES
 		int hor, min, seg, inc;
 		
 		//hor: en esta variable vamos a guardar el valor de las horas introducido por el usuario
