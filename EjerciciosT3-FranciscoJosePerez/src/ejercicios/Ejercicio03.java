@@ -14,13 +14,29 @@ public class Ejercicio03 {
 		 
 		 1) PRUEBA 2 (NÚMERO INTRODUCIDO MENOR A 3) INPUT: n_altura=2
 		 		
-		 		RESULTADO ESPERADO: "OUTPUT: Existen un total de 4 números primos en el rango (1,n)"
-		 		RESULTADO OBTENIDO: "OUTPUT: Existen un total de 4 números primos en el rango (1,n)"
+		 		RESULTADO ESPERADO: "* 
+		 							* *"
+		 		RESULTADO OBTENIDO: "* 
+		 							* *"
 		 		
-		 1) PRUEBA 3 (NÚMERO INTRODUCIDO CON VALOR MUY ELEVADO) INPUT: INPUT: n_altura=20
+		 1) PRUEBA 3 (NÚMERO INTRODUCIDO CON VALOR + ELEVADO) INPUT: INPUT: n_altura=20
 		 		
-		 		RESULTADO ESPERADO: "OUTPUT: Existen un total de 25 números primos en el rango (1,n)"
-		 		RESULTADO OBTENIDO: "OUTPUT: Existen un total de 25 números primos en el rango (1,n)"
+		 		RESULTADO ESPERADO:
+		 		      * 
+				     * * 
+				    * * * 
+				   * * * * 
+				  * * * * * 
+				 * * * * * * 
+				* * * * * * * 
+		 		RESULTADO OBTENIDO:
+		 		      * 
+				     * * 
+				    * * * 
+				   * * * * 
+				  * * * * * 
+				 * * * * * * 
+				* * * * * * * 
 		 		
 		 */
 		
