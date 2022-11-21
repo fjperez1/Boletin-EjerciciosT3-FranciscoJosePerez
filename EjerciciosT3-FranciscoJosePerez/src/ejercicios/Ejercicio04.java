@@ -60,6 +60,7 @@ public class Ejercicio04 {
 			} 
 		} else
 			System.out.println("ERROR: Por favor, introduce un número dentro del rango permitido (1,n)");
+			//Mostramos un error por consola en caso de que el valor introducido por el usuario esté fuera del rango permitido.
 		
 			lectura.close();
 			//Cerramos el Scanner
