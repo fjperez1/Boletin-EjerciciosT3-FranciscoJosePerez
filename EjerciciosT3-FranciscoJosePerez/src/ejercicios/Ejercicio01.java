@@ -8,9 +8,25 @@ public class Ejercicio01 {
 		
 		/*PRUEBAS
 		 
-		 1) INPUT:
-		 2) INPUT:
+		 1) PRUEBA 1 (SIN LLEGAR A LOS LÍMITES) INPUT: hor=16 min=30 seg=45 inc=13
+		 		
+		 		RESULTADO ESPERADO: "OUTPUT: Son las 16:30:58" RESULTADO OBTENIDO: "OUTPUT: Son las 16:30:58"
+		 		
+		 2) PRUEBA 2 (LLEGANDO A LOS LÍMITES) INPUT: hor=23 min=59 seg=59 inc=1
 		 
+		 		RESULTADO ESPERADO: "OUTPUT: Son las 00:00:00" RESULTADO OBTENIDO: "OUTPUT: Son las 00:00:00"
+		 		
+		 3) PRUEBA 3 (INTRODUCIR UN VALOR FUERA DEL RANGO PERMITIDO:horas) INPUT: hor=40 min=30 seg=15 inc=15
+		 
+		 		RESULTADO ESPERADO: "ERROR, introduce una hora válida" RESULTADO OBTENIDO: "ERROR, introduce una hora válida"
+		 
+		 4) PRUEBA 4 (INTRODUCIR UN VALOR FUERA DEL RANGO PERMITIDO:minutos) INPUT: hor=15 min=100 seg=20 inc=15
+		 
+		 		RESULTADO ESPERADO: "ERROR, introduce una hora válida" RESULTADO OBTENIDO: "ERROR, introduce una hora válida"
+		 		
+		 5) PRUEBA 5 (INTRODUCIR UN VALOR FUERA DEL RANGO PERMITIDO:segundos) INPUT: hor=15 min=30 seg=90 inc=15
+		 
+		 		RESULTADO ESPERADO: "ERROR, introduce una hora válida" RESULTADO OBTENIDO: "ERROR, introduce una hora válida"
 		 */
 		
 		//DECLARACIÓN DE VARIABLES
