@@ -7,24 +7,22 @@ public class Ejercicio03 {
 		
 		/*PRUEBAS
 		 
-		 1) PRUEBA 1 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO) INPUT: n= -2
+		 1) PRUEBA 1 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO) INPUT: n_altura=-3
 		 		
-		 		RESULTADO ESPERADO: "ERROR: Introduce un número entero positivo por favor"
-		 		RESULTADO OBTENIDO: "ERROR: Introduce un número entero positivo por favor"
+		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número entero positivo"
+		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número entero positivo"
 		 
-		 1) PRUEBA 2 (NÚMERO MENOR QUE 10) INPUT: n= 10
+		 1) PRUEBA 2 (NÚMERO INTRODUCIDO MENOR A 3) INPUT: n_altura=2
 		 		
 		 		RESULTADO ESPERADO: "OUTPUT: Existen un total de 4 números primos en el rango (1,n)"
 		 		RESULTADO OBTENIDO: "OUTPUT: Existen un total de 4 números primos en el rango (1,n)"
 		 		
-		 1) PRUEBA 1 (NÚMERO 100) INPUT: INPUT: n= 100
+		 1) PRUEBA 3 (NÚMERO INTRODUCIDO CON VALOR MUY ELEVADO) INPUT: INPUT: n_altura=20
 		 		
 		 		RESULTADO ESPERADO: "OUTPUT: Existen un total de 25 números primos en el rango (1,n)"
 		 		RESULTADO OBTENIDO: "OUTPUT: Existen un total de 25 números primos en el rango (1,n)"
 		 		
 		 */
-		
-		// ENUNCIADO: Realiza un programa que nos pida un número n y nos diga cuántos números hay entre 1 y n que sean primos.
 		
 		//DECLARACIÓN DE VARIABLES
 		
@@ -37,8 +35,14 @@ public class Ejercicio03 {
 		n_altura = lectura.nextInt();
 		//Guardamos el valor introducido por el usuario en la variable "n_altura"
 		
-		for (int alt=1;alt<=n_altura;alt++) {
+		if (n_altura>1) {
+		//En primer lugar vamos a comprobar que el valor introducido por el usuario sea mayor que uno
+		//¿Por qué el mínimo es 2? Es el valor mínimo necesario para poder representar un triángulo
+			
+			for (int alt=1;alt<=n_altura;alt++) {
+		
 		//Iniciamos un bucle for, que irá desde el 1 hasta el valor introducido por el usuario (nos servirá para mostrar cada fila)
+				
 			for (int n_spa=1;n_spa<=n_altura-alt;n_spa++) {
 				
 			/*
@@ -52,14 +56,24 @@ public class Ejercicio03 {
 				//Mostramos por pantalla el espacio en blanco
 			}
 			for (int n_ast=1;n_ast<=alt;n_ast++) {
+				
+			/*
+			Declaramos otro bucle for, que vamos a utilizar para representar en consola los asteriscos.
+			En este caso, vamos a ejecutar el bucle hasta que n_ast llegue al valor de la variable "alt".
+			Es decir, en cada fila vamos a mostrar una cantidad de asteriscos igual al valor de la variable "alt".
+			 */
 				System.out.print("*");
+				//Mostramos por pantalla el asterisco
 				System.out.print(" ");
+				//Mostramos por pantalla un espacio entre cada asterisco (como indica el enunciado del problema)
 				
 			}
-			
-		System.out.println("");
-		
+			System.out.println("");
+			//Éste println será necesario para poder pasar a la siguiente línea
 		}
+			
+		}else
+			System.out.println("ERROR: Por favor, introduce un número entero positivo");
 		
 		lectura.close();
 		//Cerramos el Scanner
