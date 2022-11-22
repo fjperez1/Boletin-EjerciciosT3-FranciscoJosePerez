@@ -13,12 +13,12 @@ public class Ejercicio02 {
 		 		RESULTADO ESPERADO: "ERROR: Introduce un número entero positivo por favor"
 		 		RESULTADO OBTENIDO: "ERROR: Introduce un número entero positivo por favor"
 		 
-		 1) PRUEBA 2 (NÚMERO MENOR QUE 10) INPUT: n= 10
+		 2) PRUEBA 2 (NÚMERO MENOR QUE 10) INPUT: n= 10
 		 		
 		 		RESULTADO ESPERADO: "OUTPUT: Existen un total de 4 números primos en el rango (1,n)"
 		 		RESULTADO OBTENIDO: "OUTPUT: Existen un total de 4 números primos en el rango (1,n)"
 		 		
-		 1) PRUEBA 3 (NÚMERO 100) INPUT: INPUT: n= 100
+		 3) PRUEBA 3 (NÚMERO 100) INPUT: INPUT: n= 100
 		 		
 		 		RESULTADO ESPERADO: "OUTPUT: Existen un total de 25 números primos en el rango (1,n)"
 		 		RESULTADO OBTENIDO: "OUTPUT: Existen un total de 25 números primos en el rango (1,n)"

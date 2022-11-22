@@ -18,12 +18,12 @@ public class Ejercicio06 {
 		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número dentro del rango permitido (0,20)"
 		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número dentro del rango permitido (0,20)"
 		 		
-		 1) PRUEBA 2 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO) INPUT: n=21
+		 2) PRUEBA 2 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO) INPUT: n=21
 		 		
 		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número dentro del rango permitido (0,20)"
 		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número dentro del rango permitido (0,20)"
 		 
-		  1) PRUEBA 3 (INTRODUCIMOS NÚMERO ALEATORIO) INPUT: n=7
+		 3) PRUEBA 3 (INTRODUCIMOS NÚMERO ALEATORIO) INPUT: n=7
 		 		
 		 		RESULTADO ESPERADO:
 1

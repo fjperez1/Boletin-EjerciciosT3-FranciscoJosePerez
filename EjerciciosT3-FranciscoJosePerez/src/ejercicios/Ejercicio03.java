@@ -12,14 +12,14 @@ public class Ejercicio03 {
 		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número entero positivo"
 		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número entero positivo"
 		 
-		 1) PRUEBA 2 (NÚMERO INTRODUCIDO MENOR A 3) INPUT: n_altura=2
+		 2) PRUEBA 2 (NÚMERO INTRODUCIDO MENOR A 3) INPUT: n_altura=2
 		 		
 		 		RESULTADO ESPERADO: "* 
 		 							* *"
 		 		RESULTADO OBTENIDO: "* 
 		 							* *"
 		 		
-		 1) PRUEBA 3 (NÚMERO INTRODUCIDO CON VALOR + ELEVADO) INPUT: INPUT: n_altura=20
+		 3) PRUEBA 3 (NÚMERO INTRODUCIDO CON VALOR + ELEVADO) INPUT: INPUT: n_altura=20
 		 		
 		 		RESULTADO ESPERADO:
 		 		      * 

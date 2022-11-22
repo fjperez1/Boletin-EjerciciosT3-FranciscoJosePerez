@@ -24,7 +24,7 @@ public class Ejercicio08 {
 		 			"FALLO, el número introducido es menor"
 					"INPUT: Dime un número"
 		 		
-		 1) PRUEBA 2 (INTRODUCIMOS VARIOS NÚMEROS MAYORES Y UN CERO) INPUT: n_intro=6 n=7 n=8 n=9 n=0
+		 2) PRUEBA 2 (INTRODUCIMOS VARIOS NÚMEROS MAYORES Y UN CERO) INPUT: n_intro=6 n=7 n=8 n=9 n=0
 		 		
 		 		RESULTADO ESPERADO:
 					"Has introducido un total de 3 números"

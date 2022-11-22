@@ -20,12 +20,12 @@ public class Ejercicio05 {
 		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número dentro del rango permitido (1,n)"
 		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número dentro del rango permitido (1,n)"
 		 		
-		 1) PRUEBA 2 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO:b) INPUT: a=7 b=-2
+		 2) PRUEBA 2 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO:b) INPUT: a=7 b=-2
 		 		
 		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número dentro del rango permitido (1,n)"
 		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número dentro del rango permitido (1,n)"
 		 
-		  1) PRUEBA 3 (INTRODUCIMOS NÚMERO ALEATORIO) INPUT: a=20 b=30
+		 3) PRUEBA 3 (INTRODUCIMOS NÚMERO ALEATORIO) INPUT: a=20 b=30
 		 		
 		 		RESULTADO ESPERADO: "OUTPUT: mínimo común divisor = 60"
 		 		RESULTADO OBTENIDO: "OUTPUT: mínimo común divisor = 60"

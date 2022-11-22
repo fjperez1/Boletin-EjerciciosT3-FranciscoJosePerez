@@ -17,14 +17,14 @@ public class Ejercicio09 {
 		 		RESULTADO OBTENIDO:
 		 			"ERROR: Por favor, introduce un número válido (mayor que 0)"
 		 			
-		 1) PRUEBA 2 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO) INPUT: n_intro=0
+		 2) PRUEBA 2 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO) INPUT: n_intro=0
 		 		
 		 		RESULTADO ESPERADO:
 					"ERROR: Por favor, introduce un número válido (mayor que 0)"
 		 		RESULTADO OBTENIDO:
 		 			"ERROR: Por favor, introduce un número válido (mayor que 0)"
 		 		
-		 1) PRUEBA 3 (INTRODUCIMOS NÚMERO ALEATORIO DE VARIAS CIFRAS) INPUT: n_intro=78657
+		 3) PRUEBA 3 (INTRODUCIMOS NÚMERO ALEATORIO DE VARIAS CIFRAS) INPUT: n_intro=78657
 		 		
 		 		RESULTADO ESPERADO:
 					"El número introducido tiene 5 cifras"
