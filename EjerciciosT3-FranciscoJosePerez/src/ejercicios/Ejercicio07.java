@@ -22,7 +22,7 @@ public class Ejercicio07 {
 		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número dentro del rango permitido"
 		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número dentro del rango permitido"
 		 
-		  1) PRUEBA 1 (INTRODUCIMOS NÚMERO ALEATORIO) INPUT: n=7
+		 1) PRUEBA 2 (INTRODUCIMOS NÚMERO ALEATORIO) INPUT: n=7
 		 		
 		 		RESULTADO ESPERADO:
 1

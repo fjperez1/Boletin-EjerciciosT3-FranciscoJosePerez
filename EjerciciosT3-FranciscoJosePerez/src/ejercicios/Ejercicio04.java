@@ -13,12 +13,12 @@ public class Ejercicio04 {
 		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número dentro del rango permitido (1,n)"
 		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número dentro del rango permitido (1,n)"
 		 		
-		 1) PRUEBA 1 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO:b) INPUT: a=7 b=-2
+		 1) PRUEBA 2 (INTRODUCIMOS NÚMERO FUERA DEL RANGO PERMITIDO:b) INPUT: a=7 b=-2
 		 		
 		 		RESULTADO ESPERADO: "ERROR: Por favor, introduce un número dentro del rango permitido (1,n)"
 		 		RESULTADO OBTENIDO: "ERROR: Por favor, introduce un número dentro del rango permitido (1,n)"
 		 
-		  1) PRUEBA 1 (INTRODUCIMOS NÚMERO ALEATORIO) INPUT: a=20 b=30
+		  1) PRUEBA 3 (INTRODUCIMOS NÚMERO ALEATORIO) INPUT: a=20 b=30
 		 		
 		 		RESULTADO ESPERADO: "OUTPUT: máximo común divisor = 10"
 		 		RESULTADO OBTENIDO: "OUTPUT: máximo común divisor = 10"
